@@ -10,9 +10,9 @@ This code is designed to reverse a string and print the Fibonacci series of 10 n
 
 1. The reverse_string function is correctly implemented to reverse the input string. However, the function name and the recursive function call inside the method do not match. The function name is reverse_string, but it ixs called as reverseString. This will cause a compile-time error.
 
-> 1.1 Getting user input: always try get user input seperate from the function that needs it. This a part of the principle of **seperation of concerns.** A good place to get user input in this particular project would be in the Main function.
+> > 1.1 Getting user input: always try get user input seperate from the function that needs it. This a part of the principle of **seperation of concerns.** A good place to get user input in this particular project would be in the Main function.
 
-> 1.2 Printing output: The output of the 'reverse_string' method is being printed within the method. It would be better to return the reversed string and print it outside the method.
+> > 1.2 Printing output: The output of the 'reverse_string' method is being printed within the method. It would be better to return the reversed string and print it outside the method.
 
 2. The upper level class name (line 1) should start with a capital letter ie follow the **Pascal case** naming convention to be consistent with Java standards.
 

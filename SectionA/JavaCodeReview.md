@@ -51,7 +51,9 @@ Method signature: Change the name of the 'reverse_string' method to 'reverseStri
 **Documentation:** Update the comments to follow proper formatting and remove any unnecessary comments.
 Corrected Code
 
-**Conclusion:** Hi Buso, I hope you're well. Well done on staying focused on your learning so far, and not being afraid to ask for help when need be. These traits will take you far when you're in Industry.
+##Conclusion:
+
+Hi Buso, I hope you're well. Well done on staying focused on your learning so far, and not being afraid to ask for help when need be. These traits will take you far when you're in Industry.
 
 Overall your code is not far from being correct, efficient and well-written with proper documentation. However, there are a few issues that need to be fixed to make the code more readable, maintainable and for it to compile and run.
 

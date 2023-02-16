@@ -8,11 +8,11 @@ This code is designed to reverse a string and print the Fibonacci series of 10 n
 
 **Naming conventions:**
 
-1. The reverse_string function is correctly implemented to reverse the input string. However, the function name and the recursive function call inside the method do not match. The function name is reverse_string, but it is called as reverseString. This will cause a compile-time error.
+1. The reverse_string function is correctly implemented to reverse the input string. However, the function name and the recursive function call inside the method do not match. The function name is reverse_string, but it ixs called as reverseString. This will cause a compile-time error.
 
-- Getting user input:
+> 1.1 Getting user input: always try get user input seperate from the function that needs it. This a part of the principle of **seperation of concerns.** A good place to get user input in this particular project would be in the Main function.
 
-- Printing output: The output of the 'reverse_string' method is being printed within the method. It would be better to return the reversed string and print it outside the method.
+> 1.2 Printing output: The output of the 'reverse_string' method is being printed within the method. It would be better to return the reversed string and print it outside the method.
 
 2. The upper level class name (line 1) should start with a capital letter ie follow the **Pascal case** naming convention to be consistent with Java standards.
 
@@ -32,7 +32,7 @@ The efficiency of the code is decent, as the reverse_string method recursively r
 
 **Style**
 
-The code mostly follows Java's standard naming conventions relatively readable, however the indentation isn't consistent and the code isn't properly commented in some cases. Class name should be changed to Recursion and some function signatures should be changed to follow Java naming conventions.
+The code mostly follows Java's standard naming conventions, is relatively readable, however the indentation and spacing isn't consistent and the code isn't properly commented in some cases. Class name should be changed to Recursion and some function signatures should be changed to follow Java naming conventions.
 
 [See Java Code Conventions](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf)
 
@@ -53,6 +53,6 @@ Corrected Code
 
 **Conclusion:** Hi Buso, I hope you're well. Well done on staying focused on your learning so far, and not being afraid to ask for help when need be. These traits will take you far when you're in Industry.
 
-Overall your code is not far from being correct, efficient and well-written with proper documentation. However, there are a few minor issues that need to be fixed to make the code more readable, maintainable and for it to compile and run.
+Overall your code is not far from being correct, efficient and well-written with proper documentation. However, there are a few issues that need to be fixed to make the code more readable, maintainable and for it to compile and run.
 
 You're more then welcome to work on what I've pointed out in this code review and send it to me to review again. All the best and may the code be with you!

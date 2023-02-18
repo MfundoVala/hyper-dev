@@ -53,7 +53,18 @@ roads = {
 
 
 def navigate(roads: Dict[str, Any], start: int, end: int) -> Dict[str, Any]:
-    # Creating a dictionary to store the graph
+    """accepts a dictionary of roads, a start node, and an end node, and returns 
+    a dictionary containing the distance and path from the start node to the end node.
+
+    Args: 
+        roads (Dict[str, Any]): the dictionary of roads to navigate
+        start (int): the start node
+        end (int): the end node
+
+    Returns:
+        Dict[str, Any]: a dictionary containing the distance (iint) and path (node id array) from the start node to the end node
+    """ 
+    
     graph = {}
     
     # Adding each node to the graph with an empty adjacency list
@@ -82,7 +93,6 @@ def navigate(roads: Dict[str, Any], start: int, end: int) -> Dict[str, Any]:
     # Creating a dictionary to store the previous node in the shortest path from the start node to each node in the graph
     previous = {}
     
-    # Setting the previous node of all nodes to None
     for node in graph:
         previous[node] = None
     
@@ -104,9 +114,8 @@ def navigate(roads: Dict[str, Any], start: int, end: int) -> Dict[str, Any]:
         if current == end:
             break
         
-        # Looping through all the neighbors of the current node
+        # Looping through all the neighbors of the current node and updating the distance and previous node if distance is smaller
         for neighbor, distance_to_neighbor in graph[current]:
-            # If the distance to the neighbor through the current node is smaller than the current distance to the neighbor, update the distance and previous node
             new_distance = distance[current] + distance_to_neighbor
             if new_distance < distance[neighbor]:
                 distance[neighbor] = new_distance

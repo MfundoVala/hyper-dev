@@ -136,4 +136,12 @@ def navigate(roads: Dict[str, Any], start: int, end: int) -> Dict[str, Any]:
     
     return result
 
-print(navigate(roads, 0, 2))
+
+print(navigate(roads, 2, 0))
+
+
+
+
+    
+
+
